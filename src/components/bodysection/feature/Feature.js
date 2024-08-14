@@ -57,7 +57,7 @@ function Feature() {
     {
       id: 1,
       image:
-        "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcScIM_ig8HUCU1jDxpxEdr2IFcZMpVD2jhVxBQEBt19h1Edj1wgF9QKTwBuWD4gPPSM5FFX8jKIoF06ChwfctI",
+      "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTJJhceir7OTB6p4jMwYYKOVZ0jHRKX8PpK-1dvQZgSIJOqMEoYuRq6jjpXPdG_MIsacloehT5GxOSgw2RII5Y",
       description:
         "Lorem ipsum dolor sit  elit. Cum maiores cupiditate nihil? Ducimus aliquam, minus eum consectetur totam cum id? ",
       price: 3850,
@@ -66,7 +66,7 @@ function Feature() {
     {
       id: 2,
       image:
-        "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTwGTmgN4WclFT5_MqG2LWj9nSsaabJ_hdFIxxBFf_SPblOvYwmOQdGu6cSOEmULMLm595LQ_FahMEgDtjqqDU",
+      "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRlYWm503BNBYbTaJS7q05g6Wsz64rtgkSpwTCKCySK3fCALCNG9_rQ_RVAJoerzBYlK0oJKME-F_7yUEqETN4",
       description:
         "Lorem ipsum dolor sit amet consicing elit. Cum maiores cupiditate nihil? Ducimus aliquam, minus eum consectetur totam cum id? ",
       price: 185000,

@@ -1,0 +1,70 @@
+/* Pagination container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    flex-wrap: wrap; /* Allow pagination controls to wrap to the next line if needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Pagination item styling */
+.page-item {
+    margin: 0 5px;
+}
+
+/* Default styling for page links */
+.page-link {
+    display: block;
+    padding: 10px 15px;
+    color: #6c757d !important; /* Gray color for inactive state */
+    background-color: #ffffff !important; /* White background for inactive state */
+    border: 1px solid #6c757d !important; /* Gray border for inactive state */
+    border-radius: 0.25rem;
+    text-decoration: none;
+    white-space: nowrap; /* Prevent text from wrapping inside the pagination links */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Hover effect for page links */
+.page-link:hover {
+    background-color: #e9ecef !important; /* Light gray background on hover */
+    border-color: #6c757d !important; /* Gray border on hover */
+}
+
+/* Styling for the active page link */
+.active .page-link {
+    background-color: #ff7b00de !important; /* Color for the active state */
+    color: #ffffff; /* White text color for active state */
+    border-color: #ff7b00de !important; /* Border color to match the active state */
+}
+
+/* Styling for previous and next buttons */
+.previous-link, .next-link {
+    color: #6c757d !important; /* Gray color for previous and next buttons */
+    background-color: #ffffff !important; /* White background for previous and next buttons */
+    border: 1px solid #6c757d !important; /* Gray border for previous and next buttons */
+}
+
+.previous-link:hover, .next-link:hover {
+    background-color: #e9ecef !important; /* Light gray background on hover */
+    border-color: #6c757d !important; /* Gray border on hover */
+}
+
+/* Ensure container doesn't overflow */
+.container {
+    overflow: hidden; /* Hide any overflow content */
+    max-width: 100%;
+    padding: 0 15px; /* Add some padding to prevent content from touching the edges */
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    .pagination {
+        flex-direction: row; /* Stack pagination controls vertically on smaller screens */
+    }
+
+    .page-item {
+        margin: 5px 0; /* Adjust margins for vertical layout */
+    }
+}
