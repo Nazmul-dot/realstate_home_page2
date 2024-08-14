@@ -2,3 +2,53 @@
     flex: 0 0 14.285714%; 
     max-width: 14.285714%;
   }
+
+/* Basic grid styling */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 columns for 7 divs */
+  gap: 10px; /* Space between the items */
+  /* padding: 10px; */
+  margin: 0;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+
+}
+
+/* Styling for each grid item */
+.grid-item {
+ 
+  /* border: 1px solid #333; */
+  padding: 5px;
+  /* text-align: center; */
+}
+
+.submit{
+  margin-top: 30px;
+}
+/* Responsive layout: 2 items per row on small screens */
+@media (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: repeat(3, 1fr); /* 2 columns per row */
+  }
+}
+
+/* Responsive layout: 1 item per row on very small screens */
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns per row */
+  }
+  .submit{
+    margin-top: 0px;
+  }
+
+
+
+  .grid-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  
+  }
+}
+
+  

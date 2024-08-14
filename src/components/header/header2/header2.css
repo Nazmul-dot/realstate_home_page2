@@ -1,0 +1,85 @@
+
+.header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #222629;
+    /* color: #d6daddea; */
+  }
+header {
+    background:#222629;
+    width:100%;
+    padding:40px 0;
+    color:white;
+    text-align:center;
+  }
+
+/* Remove border from the collapse button */
+.navbar-toggler {
+    border: none;
+    outline: none; /* Also remove the outline when the button is focused */
+  }
+  
+  /* Remove border when the button is clicked (focused) */
+  .navbar-toggler:focus {
+    border: none;
+    outline: none;
+    box-shadow: none; /* Remove any default focus shadow */
+  }
+  .contarct-icon{
+    padding-bottom: 9px;
+    padding-top: 10px;
+    background-color:#4fc2f7cb;
+    padding-left: 10px;
+    
+  }
+  .contact-num{
+    padding-bottom: 9px;
+    padding-top: 10px;
+    background-color:#4FC3F7;
+    padding-right: 80px;
+    padding-left: 10px;
+  }
+ .nav-item{
+    margin-right: 11px;
+    margin-left: 11px;
+ }
+  .nav-item:hover{
+    background-color: rgba(255, 123, 0, 0.87);
+  }
+
+
+  .logo-section{
+    margin-left: 120px;
+  }
+
+  @media screen and (max-width:580px){
+    .contarct-icon{
+        padding-bottom: 10px;
+        padding-top: 10.2px;
+      }
+      .contact-num{
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+      .nav-item{
+      margin: 0px;
+      padding: 8px;
+     }
+     .logo-section{
+        margin-left: 20px;
+      }
+      .register{
+        margin-right: 35px;
+      }
+      .login-div{
+        margin-left: 15px;
+      }
+    
+  }
+
+
+
+  
+  

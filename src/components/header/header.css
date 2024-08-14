@@ -89,6 +89,7 @@
     .handle {
       display:block;
       text-align: left;
+      margin-left: 10px;
     }
     /* .register{
       padding-right: 50px;

@@ -18,7 +18,7 @@ function SearchSection() {
               className="form-control"
               id="exampleFormControlInput1"
               placeholder="Any"
-              style={{borderRadius:'0'}}
+              style={{ borderRadius: "0" }}
             />
           </div>
         </div>
@@ -32,7 +32,7 @@ function SearchSection() {
               Property Location
             </label>
             <select
-             style={{borderRadius:'0'}}
+              style={{ borderRadius: "0" }}
               className="form-select"
               id="exampleFormControlSelect1"
               aria-label="Default select example"
@@ -51,10 +51,10 @@ function SearchSection() {
               htmlFor="exampleFormControlSelect2"
               className="form-label text-start"
             >
-             Property Status
+              Property Status
             </label>
             <select
-             style={{borderRadius:'0'}}
+              style={{ borderRadius: "0" }}
               className="form-select"
               id="exampleFormControlSelect2"
               aria-label="Default select example"
@@ -76,7 +76,7 @@ function SearchSection() {
               Property Type
             </label>
             <select
-             style={{borderRadius:'0'}}
+              style={{ borderRadius: "0" }}
               className="form-select"
               id="exampleFormControlSelect3"
               aria-label="Default select example"
@@ -90,11 +90,156 @@ function SearchSection() {
         </div>
       </div>
 
+      <div class="grid-container">
+
+        <div class="grid-item">
+          <label
+            htmlFor="exampleFormControlSelect3"
+            className="form-label text-start"
+          >
+            Min Beds
+          </label>
+          <select
+            style={{ borderRadius: "0" }}
+            className="form-select"
+            id="exampleFormControlSelect3"
+            aria-label="Default select example"
+          >
+            <option value="0">Any</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="grid-item">
+          <label
+            htmlFor="exampleFormControlSelect3"
+            className="form-label text-start"
+          >
+            Min Baths
+          </label>
+          <select
+            style={{ borderRadius: "0" }}
+            className="form-select"
+            id="exampleFormControlSelect3"
+            aria-label="Default select example"
+          >
+            <option value="0">Any</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="grid-item">
+          <label
+            htmlFor="exampleFormControlSelect3"
+            className="form-label text-start"
+          >
+            Min Price
+          </label>
+          <select
+            style={{ borderRadius: "0" }}
+            className="form-select"
+            id="exampleFormControlSelect3"
+            aria-label="Default select example"
+          >
+            <option value="0">Any</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="grid-item">
+          <label
+            htmlFor="exampleFormControlSelect3"
+            className="form-label text-start"
+          >
+            Max Price
+          </label>
+          <select
+            style={{ borderRadius: "0" }}
+            className="form-select"
+            id="exampleFormControlSelect3"
+            aria-label="Default select example"
+          >
+            <option value="0">Any</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="grid-item">
+          <label
+            htmlFor="exampleFormControlSelect3"
+            className="form-label text-start"
+          >
+            Min Area
+          </label>
+          <select
+            style={{ borderRadius: "0" }}
+            className="form-select"
+            id="exampleFormControlSelect3"
+            aria-label="Default select example"
+          >
+            <option value="0">Any</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="grid-item">
+          <label
+            htmlFor="exampleFormControlSelect3"
+            className="form-label text-start"
+          >
+            Max Area
+          </label>
+          <select
+            style={{ borderRadius: "0" }}
+            className="form-select"
+            id="exampleFormControlSelect3"
+            aria-label="Default select example"
+          >
+            <option value="0">Any</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="grid-item">
+        <input
+                type="submit"
+                className="btn btn-warning submit "
+                style={{ width: "100%", borderRadius: 0 }}
+                id="exampleFormControlInput1"
+              />
+        </div>
+
+
+        {/* <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div> */}
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
       {/* Second search section */}
 
-      <div className="container mt-3">
+      {/* <div className="container mt-3">
         <div className="row">
-          <div className="custom-col mx-auto  mt-1">
+          <div className="custom-col mx-auto mt-1">
             <div className="mb-3">
               <label
                 htmlFor="exampleFormControlSelect3"
@@ -103,7 +248,7 @@ function SearchSection() {
                 Min Beds
               </label>
               <select
-               style={{borderRadius:'0'}}
+                style={{ borderRadius: "0" }}
                 className="form-select"
                 id="exampleFormControlSelect3"
                 aria-label="Default select example"
@@ -115,16 +260,16 @@ function SearchSection() {
               </select>
             </div>
           </div>
-          <div className="custom-col mx-auto  mt-1">
+          <div className="custom-col mx-auto mt-1">
             <div className="mb-3">
               <label
                 htmlFor="exampleFormControlSelect3"
                 className="form-label text-start"
               >
-               Min Baths
+                Min Baths
               </label>
               <select
-               style={{borderRadius:'0'}}
+                style={{ borderRadius: "0" }}
                 className="form-select"
                 id="exampleFormControlSelect3"
                 aria-label="Default select example"
@@ -136,16 +281,16 @@ function SearchSection() {
               </select>
             </div>
           </div>
-          <div className="custom-col mx-auto  mt-1">
+          <div className="custom-col mx-auto mt-1">
             <div className="mb-3">
               <label
                 htmlFor="exampleFormControlSelect3"
                 className="form-label text-start"
               >
-              Min Price
+                Min Price
               </label>
               <select
-               style={{borderRadius:'0'}}
+                style={{ borderRadius: "0" }}
                 className="form-select"
                 id="exampleFormControlSelect3"
                 aria-label="Default select example"
@@ -157,7 +302,7 @@ function SearchSection() {
               </select>
             </div>
           </div>
-          <div className="custom-col mx-auto  mt-1">
+          <div className="custom-col mx-auto mt-1">
             <div className="mb-3">
               <label
                 htmlFor="exampleFormControlSelect3"
@@ -166,7 +311,7 @@ function SearchSection() {
                 Max Price
               </label>
               <select
-               style={{borderRadius:'0'}}
+                style={{ borderRadius: "0" }}
                 className="form-select"
                 id="exampleFormControlSelect3"
                 aria-label="Default select example"
@@ -178,7 +323,7 @@ function SearchSection() {
               </select>
             </div>
           </div>
-          <div className="custom-col mx-auto  mt-1">
+          <div className="custom-col mx-auto mt-1">
             <div className="mb-3">
               <label
                 htmlFor="exampleFormControlSelect3"
@@ -186,10 +331,16 @@ function SearchSection() {
               >
                 Min Area
               </label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Any"  style={{borderRadius:'0'}} />
+              <input
+                type="email"
+                className="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Any"
+                style={{ borderRadius: "0" }}
+              />
             </div>
           </div>
-          <div className="custom-col mx-auto  mt-1">
+          <div className="custom-col mx-auto mt-1">
             <div className="mb-3">
               <label
                 htmlFor="exampleFormControlSelect3"
@@ -197,18 +348,29 @@ function SearchSection() {
               >
                 Max Area
               </label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Any"  style={{borderRadius:'0'}}/>
+              <input
+                type="email"
+                className="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Any"
+                style={{ borderRadius: "0" }}
+              />
             </div>
           </div>
-
-          <div className="custom-col  mt-1">
-            <div className=" my-auto mt-4">
-            <input type="submit" class="btn btn-warning mt-2" style={{width:'100%',borderRadius:0}} id="exampleFormControlInput1"  />
+          <div className="custom-col mt-1">
+            <div className="my-auto mt-4">
+              <input
+                type="submit"
+                className="btn btn-warning mt-2"
+                style={{ width: "100%", borderRadius: 0 }}
+                id="exampleFormControlInput1"
+              />
             </div>
           </div>
-
         </div>
-      </div>
+      </div> */}
+
+
     </div>
   );
 }
