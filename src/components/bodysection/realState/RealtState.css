@@ -5,6 +5,8 @@
     padding: 20px 0;
     flex-wrap: wrap; /* Allow pagination controls to wrap to the next line if needed */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    /* border:2px solid red; */
+   
 }
 
 /* Pagination item styling */
@@ -62,6 +64,8 @@
 @media (max-width: 768px) {
     .pagination {
         flex-direction: row; /* Stack pagination controls vertically on smaller screens */
+        margin: 0;
+        padding-top: 0;
     }
 
     .page-item {

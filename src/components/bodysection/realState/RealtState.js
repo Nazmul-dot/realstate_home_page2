@@ -179,7 +179,7 @@ function RealtState() {
           />
         ))}
       </div>
-      <ReactPaginate
+      <ReactPaginate 
         previousLabel={"Previous"}
         nextLabel={"Next"}
         breakLabel={"..."}
