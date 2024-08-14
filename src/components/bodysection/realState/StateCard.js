@@ -11,7 +11,7 @@ function StateCard({image,title,description,price}) {
   return (
     <>
       <div
-        className="border border-1 col-12 col-md-6 mx-auto my-4  "
+        className="border border-1 col-12 col-md-6 mx-auto my-4 mx-2 "
         style={{ maxWidth: "520px" }}
       >
         <h5 className="mt-2" style={{ fontFamily: "sans-serif" }}>

@@ -173,7 +173,7 @@ function SearchSection() {
             htmlFor="exampleFormControlSelect3"
             className="form-label text-start"
           >
-            Min Area
+            Min Area(Sq Ft)
           </label>
           <select
             style={{ borderRadius: "0" }}
@@ -192,7 +192,7 @@ function SearchSection() {
             htmlFor="exampleFormControlSelect3"
             className="form-label text-start"
           >
-            Max Area
+            Max Area(Sq Ft)
           </label>
           <select
             style={{ borderRadius: "0" }}
