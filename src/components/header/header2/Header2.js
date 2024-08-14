@@ -65,7 +65,7 @@ function Header2() {
         </header>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-0 m-0">
           <div className="container-fluid p-0 m-0">
-            <a className="navbar-brand logo-section" href="#">
+            <a className="navbar-brand logo-section pb-1 pt-0 mt-0" href="#">
               <FontAwesomeIcon icon={faHouse} size="3x" />
               <span style={{ fontWeight: "bold", marginLeft: "-12px" }}>
                 REAL
