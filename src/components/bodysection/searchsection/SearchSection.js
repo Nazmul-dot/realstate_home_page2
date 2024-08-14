@@ -29,7 +29,7 @@ function SearchSection() {
               htmlFor="exampleFormControlSelect1"
               className="form-label text-start"
             >
-              Property Location
+              Property Loc
             </label>
             <select
               style={{ borderRadius: "0" }}
@@ -51,7 +51,7 @@ function SearchSection() {
               htmlFor="exampleFormControlSelect2"
               className="form-label text-start"
             >
-              Property Status
+              Property Stat
             </label>
             <select
               style={{ borderRadius: "0" }}
