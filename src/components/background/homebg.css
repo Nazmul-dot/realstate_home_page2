@@ -54,7 +54,7 @@
   
   @media screen and (max-width: 768px) {
     .overlay-content {
-      left: 5%;
+      left: 4%;
       top: 30%;
     }
   
@@ -74,7 +74,7 @@
     }
   
     .overlay-content {
-      left: 5%;
+      left: 3%;
       top: 25%;
     }
   
