@@ -8,7 +8,7 @@ import {
     faRightToBracket,
     faUser,
     faStethoscope,
-    faHouse
+    faHouse,
   } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import './header2.css'
@@ -116,7 +116,7 @@ function Header2() {
                   </a>
                 </li>
                 <li className=" nav-link active p-0 pt-2 m-0" style={{padding:'-5px',marginBottom:'-10px'}}>
-                  <span className=" pe-3 m-0 contarct-icon" ><FontAwesomeIcon icon={faStethoscope} /></span>
+                  <span className=" pe-3 m-0 contarct-icon" ><FontAwesomeIcon icon={faPhone} /></span>
                   <span className=" pe-5 m-0 contact-num" >1-234-234-2234</span>
                 </li>
               </ul>
