@@ -112,7 +112,7 @@ function StateCard({ image, title, description, price }) {
         </div>
         <div className="card-footer bg-light d-flex justify-content-between">
           <span className="">
-            <FontAwesomeIcon icon={faSquareXmark} /> 2800 sq ft
+            <FontAwesomeIcon icon={faSquareXmark} /> 2800_sq_ft
           </span>
           <span className="">
             <FontAwesomeIcon icon={faBed} /> 2 Bedrooms

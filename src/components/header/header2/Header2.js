@@ -34,12 +34,14 @@ function Header2() {
               className=" d-flex m-0 p-0 flex-wrap  justify-content-center"
               style={{ color: "#d6daddea" }}
             >
-              <div className="d-flex ">
-                <div className=" p-2  login-div">
+              <div className="d-flex p-0">
+                <div className="p-2 login-div d-flex align-items-center">
                   <FontAwesomeIcon icon={faRightToBracket} className="me-1" />
                   login
                 </div>
-                <div className=" p-2 register">register</div>
+                <div className="p-2 register d-flex align-items-center">
+                  register
+                </div>
               </div>
 
               <div className="d-flex ">
@@ -59,7 +61,6 @@ function Header2() {
                   <i class="bi bi-wifi"></i>
                 </div>
               </div>
-
             </div>
           </div>
         </header>
