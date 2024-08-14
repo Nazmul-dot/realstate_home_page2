@@ -77,3 +77,29 @@
 .pagination span {
   margin: 0 10px;
 }
+
+
+
+
+
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-footer {
+  font-size: 14px;
+}
+
+@media (max-width: 992px) {
+  .card img {
+    height: auto;
+  }
+}
+
+
+

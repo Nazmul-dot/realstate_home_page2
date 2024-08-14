@@ -5,15 +5,22 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 function Feature() {
   const settings = {
-    dots: false,
+    dots: true, // Enable dots for better navigation
     infinite: true,
     speed: 1000,
     slidesToShow: 4,
     slidesToScroll: 4,
-
+    
     responsive: [
       {
-        breakpoint: 1024, 
+        breakpoint: 1200, // For large screens (1200px and above)
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 1024, // For medium screens (1024px to 1199px)
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -22,16 +29,21 @@ function Feature() {
         },
       },
       {
-        breakpoint: 924, 
+        breakpoint: 768, // For smaller tablets (768px to 1023px)
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          infinite: true,
-          dots: true,
         },
       },
       {
-        breakpoint: 600, 
+        breakpoint: 600, // For mobile screens (600px to 767px)
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480, // For very small screens (less than 600px)
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -39,6 +51,7 @@ function Feature() {
       },
     ],
   };
+  
 
   const features = [
     {
