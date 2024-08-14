@@ -53,6 +53,9 @@ header {
   .logo-section{
     margin-left: 120px;
   }
+  .head-logo{
+    margin-top: 7px;
+  }
 
   @media screen and (max-width:580px){
     .contarct-icon{
@@ -75,6 +78,9 @@ header {
       }
       .login-div{
         margin-left: 15px;
+      }
+      .head-logo{
+        margin-top: -5px;
       }
     
   }

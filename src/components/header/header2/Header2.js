@@ -24,7 +24,7 @@ function Header2() {
       <div className="p-0 m-0 header-container">
         <header className="row  m-0 p-0  pb-3 bg-dark">
           <div className="col-10 col-md-10   border-bottom mx-auto d-flex justify-content-between m-0 p-0">
-            <div className=" d-flex align-items-center">
+            <div className=" d-flex align-items-center" style={{marginLeft:'-10px'}}>
               <span className="p-2 " style={{ color: "#d6daddea" }}>
                 <FontAwesomeIcon icon={faEnvelope} className="me-1" />
                 Email us at : info@helloworld.com{" "}
@@ -34,7 +34,7 @@ function Header2() {
               className=" d-flex m-0 p-0 flex-wrap  justify-content-center"
               style={{ color: "#d6daddea" }}
             >
-              <div className="d-flex p-0">
+              <div className="d-flex p-0 " style={{marginLeft:'-20px',marginTop:'6px'}}>
                 <div className="p-2 login-div d-flex align-items-center">
                   <FontAwesomeIcon icon={faRightToBracket} className="me-1" />
                   login
@@ -44,7 +44,7 @@ function Header2() {
                 </div>
               </div>
 
-              <div className="d-flex ">
+              <div className="d-flex head-logo p-0">
                 <div className=" p-2 ">
                   <i class="bi bi-facebook"></i>
                 </div>
@@ -57,7 +57,7 @@ function Header2() {
                 <div className=" p-2 ">
                   <i class="bi bi-google"></i>
                 </div>
-                <div className=" p-2 ">
+                <div className=" p-2 me-3">
                   <i class="bi bi-wifi"></i>
                 </div>
               </div>
