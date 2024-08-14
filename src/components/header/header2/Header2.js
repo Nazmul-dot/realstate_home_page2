@@ -83,7 +83,7 @@ function Header2() {
               aria-expanded={isOpen ? "true" : "false"}
               aria-label="Toggle navigation"
             >
-              <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
+              <FontAwesomeIcon icon={isOpen ? faTimes : faBars}  style={{fontSize:'30px'}}/>
             </button>
             <div
               className="collapse navbar-collapse pt-5"
