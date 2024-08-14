@@ -75,7 +75,7 @@ import "./Card.css";
 function StateCard({ image, title, description, price }) {
   return (
     <div className="col-12 col-md-6 col-lg-6 my-3">
-      <div className="card h-100" style={{borderRadius:0}}>
+      <div className="card h-100" style={{ borderRadius: 0 }}>
         <h5 className="card-title p-2" style={{ fontFamily: "sans-serif" }}>
           {title}
         </h5>
@@ -84,7 +84,7 @@ function StateCard({ image, title, description, price }) {
             <img
               src={image}
               alt="House"
-              className="img-fluid h-100"
+              className="img-fluid" // Ensures the image is responsive
               style={{ objectFit: "cover", borderRadius: 0 }}
             />
           </div>
@@ -105,7 +105,11 @@ function StateCard({ image, title, description, price }) {
               {description.substring(0, 40)}...{" "}
               <span style={{ fontWeight: "500" }}>Know more</span>
             </p>
-            <a href="" className="card-link ps-3 my-2 mb-2" style={{ color: "inherit" }}>
+            <a
+              href=""
+              className="card-link ps-3 my-2 mb-2"
+              style={{ color: "inherit", textDecoration:'none' }}
+            >
               More Details
             </a>
           </div>
