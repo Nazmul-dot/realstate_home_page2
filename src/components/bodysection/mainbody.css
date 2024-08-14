@@ -1,0 +1,9 @@
+.main_body{
+    background-color: rgb(255, 255, 255);
+}
+.full_body{
+    background-color: rgba(234, 241, 241, 0.379);
+}
+.gradient-background {
+    background: linear-gradient(to bottom, #d0d0d045, #ffffff); 
+}

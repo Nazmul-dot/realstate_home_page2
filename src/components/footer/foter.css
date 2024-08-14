@@ -1,0 +1,10 @@
+.footer-image {
+    margin-top: 80px;
+    width: 100%;
+    height: 300px;
+    background-image: url('./fimage2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: #48b9dbee; */
+  }
