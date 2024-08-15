@@ -8,12 +8,12 @@ function HomeBg() {
       <div className="background-image">
         <div className="overlay-content">
           <div className="card-container" >
-            <div className="card-content" style={{borderRadius:0}}>
+            <div className="card-content" style={{borderRadius:0,fontFamily:'"Times New Roman", Times, serif'}}>
               <h4>15421 Southwest 39th Tarreck</h4>
-              <p>
+              <p style={{fontFamily:'"Times New Roman", Times, serif'}}>
                 Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit.
               </p>
-              <p className="text-danger fs-4 p-0 m-0">3859 Per Month</p>
+              <p className=" fs-4 p-0 m-0" style={{color:'#ff7b00de'}}>3859 Per Month</p>
             </div>
             <button className="btn btn-info" style={{ borderRadius: "0" }}>
               Click Me

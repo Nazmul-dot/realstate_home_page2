@@ -21,9 +21,9 @@ function Header2() {
 
   return (
     <>
-      <div className="p-0 m-0 header-container">
-        <header className="row  m-0 p-0  pb-3 bg-dark">
-          <div className="col-10 col-md-10   border-bottom mx-auto d-flex justify-content-between m-0 p-0">
+      <div className="p-0 m-0 header-container"  style={{fontFamily:'"Times New Roman", Times, serif'}}>
+        <header className="row  m-0 p-0  pb-3 bg-dark" >
+          <div className="col-10 col-md-10   border-bottom mx-auto d-flex justify-content-between m-0 p-0" >
             <div className=" d-flex align-items-center" style={{marginLeft:'-10px'}}>
               <span className="p-2 " style={{ color: "#d6daddea" }}>
                 <FontAwesomeIcon icon={faEnvelope} className="me-1" />
@@ -68,10 +68,10 @@ function Header2() {
           <div className="container-fluid p-0 m-0">
             <a className="navbar-brand logo-section pb-1 pt-0 mt-0" href="#">
               <FontAwesomeIcon icon={faHouse} size="3x" />
-              <span style={{ fontWeight: "bold", marginLeft: "-12px" }}>
+              <span style={{ fontWeight: "bold", marginLeft: "-12px",fontFamily:'"Times New Roman", Times, serif' }}>
                 REAL
               </span>
-              <span>HOMES</span>
+              <span style={{fontFamily:'"Times New Roman", Times, serif'}}>HOMES</span>
             </a>
             <button
               className="navbar-toggler me-3"
@@ -89,9 +89,9 @@ function Header2() {
               className="collapse navbar-collapse pt-5"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0 p-0" style={{fontFamily:'"Times New Roman", Times, serif'}}>
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="nav-link active" aria-current="page" href="#" >
                     Home
                   </a>
                 </li>

@@ -8,7 +8,7 @@ import Header2 from './header/header2/Header2'
 
 function Home() {
   return (
-    <>
+    <div className='m-0 p-0'  style={{fontFamily:'"Times New Roman", Times, serif'}}>
       <Header2></Header2>
       {/* <Header></Header> */}
       <HomeBg></HomeBg>
@@ -16,7 +16,7 @@ function Home() {
       <Partner></Partner>
       <Footer1></Footer1>
       
-    </>
+    </div>
   )
 }
 

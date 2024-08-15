@@ -8,7 +8,7 @@ function FeatuerCard({ image, title, price, description }) {
         className="col-12 col-md-3 mx-auto my-2 card-container"
         style={{ width: "18rem" }}
       >
-        <div className="row p-3">
+        <div className="row p-3"  style={{fontFamily:'"Times New Roman", Times, serif'}}>
           <div className="col-12 p-0">
             <img
               src={image}

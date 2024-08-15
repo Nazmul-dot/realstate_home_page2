@@ -121,7 +121,7 @@ function Feature() {
     //     <FeatuerCard></FeatuerCard>
     // </div>
     <>
-      <div className="row ">
+      <div className="row "  style={{fontFamily:'"Times New Roman", Times, serif'}}>
         <div
           className=" col-10 col-md-12 mx-auto my-2 pt-5"
           style={{ paddingLeft: "30px" }}

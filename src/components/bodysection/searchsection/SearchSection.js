@@ -2,7 +2,7 @@ import React from "react";
 import "./search.css";
 function SearchSection() {
   return (
-    <div className="m-0 p-0">
+    <div className="m-0 p-0"  style={{fontFamily:'"Times New Roman", Times, serif'}}>
       {/* First search section */}
       <div className="row">
         <div className="col-md-3 col-5 mx-auto  mt-1">
@@ -90,7 +90,7 @@ function SearchSection() {
         </div>
       </div>
 
-      <div class="grid-container">
+      <div class="grid-container pb-4">
 
         <div class="grid-item">
           <label

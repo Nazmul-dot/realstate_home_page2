@@ -10,9 +10,9 @@ import "./Card.css";
 
 function StateCard({ image, title, description, price }) {
   return (
-    <div className="col-12 col-md-6 col-lg-6 my-3">
+    <div className="col-12 col-md-6 col-lg-6 my-3"  style={{fontFamily:'"Times New Roman", Times, serif'}}>
       <div className="card h-100" style={{ borderRadius: 0 }}>
-        <h5 className="card-title p-2" style={{ fontFamily: "sans-serif" }}>
+        <h5 className="card-title p-2" >
           {title}
         </h5>
         <div className="d-flex flex-column flex-lg-row m-0 p-0 p-md-2">

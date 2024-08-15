@@ -11,7 +11,7 @@ function MainBody() {
         <div className="col-10 mx-auto  main_body pt-5">
           <SearchSection></SearchSection>
         </div>
-        <div className="col-10 mx-auto  main_body pt-5 gradient-background text-center px-5">
+        <div className="col-10 mx-auto  main_body pt-5 gradient-background text-center px-5"  style={{fontFamily:'"Times New Roman", Times, serif'}}>
           <h1>We are Offering Best Real Estate Deals</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
