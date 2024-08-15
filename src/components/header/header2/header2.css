@@ -86,6 +86,10 @@ header {
       .nav-link{
         padding-left: 30px;
       }
+
+      .last-icon{
+        margin-right: 20px;
+      }
     
   }
 

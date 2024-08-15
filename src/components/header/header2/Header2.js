@@ -57,7 +57,7 @@ function Header2() {
                 <div className=" p-2 ">
                   <i class="bi bi-google"></i>
                 </div>
-                <div className=" p-2 me-3">
+                <div className=" p-2 last-icon">
                   <i class="bi bi-wifi"></i>
                 </div>
               </div>
