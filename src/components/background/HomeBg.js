@@ -15,7 +15,7 @@ function HomeBg() {
               </p>
               <p className=" fs-4 p-0 m-0" style={{color:'#ff7b00de'}}>3859 Per Month</p>
             </div>
-            <button className="btn btn-info" style={{ borderRadius: "0" }}>
+            <button className="btn btn-info" style={{ borderRadius: "0",color:'white' }}>
               Click Me
             </button>
           </div>
