@@ -65,84 +65,90 @@ function Header2() {
           </div>
         </header>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-0 m-0">
-          <div className="container-fluid p-0 m-0">
-            <a className="navbar-brand logo-section pb-1 pt-0 mt-0" href="#">
-              <FontAwesomeIcon icon={faHouse} size="3x" />
-              <span style={{ fontWeight: "bold", marginLeft: "-12px",fontFamily:'"Times New Roman", Times, serif' }}>
-                REAL
-              </span>
-              <span style={{fontFamily:'"Times New Roman", Times, serif'}}>HOMES</span>
-            </a>
-            <button
-              className="navbar-toggler me-3"
-              type="button"
-              onClick={handleToggle}
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded={isOpen ? "true" : "false"}
-              aria-label="Toggle navigation"
-            >
-              <FontAwesomeIcon icon={isOpen ? faTimes : faBars}  style={{fontSize:'30px'}}/>
-            </button>
-            <div
-              className="collapse navbar-collapse pt-5"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0 p-0" style={{fontFamily:'"Times New Roman", Times, serif'}}>
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#" >
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item ">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Listing
-                  </a>
-                </li>
-                <li className="nav-item ">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    News
-                  </a>
-                </li>
-                <li className="nav-item ">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    IDX
-                  </a>
-                </li>
-                <li className="nav-item ">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Gallery
-                  </a>
-                </li>
-                <li className="nav-item ">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Pages
-                  </a>
-                </li>
-                <li className="nav-item ">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Types
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Contact
-                  </a>
-                </li>
-                <li
-                  className=" nav-link active p-0 pt-2 m-0"
-                  style={{ padding: "-5px", marginBottom: "-10px" }}
-                >
-                  <span className=" pe-3 m-0 contarct-icon">
-                    <FontAwesomeIcon icon={faPhone} />
-                  </span>
-                  <span className=" pe-5 m-0 contact-num">1-234-234-2234</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+  <div className="container-fluid p-0 m-0">
+    <a className="navbar-brand logo-section pb-1 pt-0 mt-0" href="#">
+      <FontAwesomeIcon icon={faHouse} size="3x" />
+      <span style={{ fontWeight: "bold", marginLeft: "-12px", fontFamily: '"Times New Roman", Times, serif' }}>
+        REAL
+      </span>
+      <span style={{ fontFamily: '"Times New Roman", Times, serif' }}>HOMES</span>
+    </a>
+    <button
+      className="navbar-toggler me-3"
+      type="button"
+      onClick={handleToggle}
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded={isOpen ? "true" : "false"}
+      aria-label="Toggle navigation"
+    >
+      <FontAwesomeIcon icon={isOpen ? faTimes : faBars} style={{ fontSize: '30px' }} />
+    </button>
+    <div
+      className="collapse navbar-collapse pt-5"
+      id="navbarSupportedContent"
+    >
+      <ul className="navbar-nav ms-auto mb-2 mb-lg-0 p-0"
+          style={{ 
+              fontFamily: '"Times New Roman", Times, serif', 
+              overflowY: 'auto', 
+              maxHeight: '400px'  // Set a max height to trigger scrolling
+          }}>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">
+            Home
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">
+            Listing
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">
+            News
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">
+            IDX
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">
+            Gallery
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">
+            Pages
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">
+            Types
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">
+            Contact
+          </a>
+        </li>
+        <li
+          className="nav-link active p-0 pt-2 m-0"
+          style={{ padding: "-5px", marginBottom: "-10px" }}
+        >
+          <span className="pe-3 m-0 contarct-icon">
+            <FontAwesomeIcon icon={faPhone} />
+          </span>
+          <span className="pe-5 m-0 contact-num">1-234-234-2234</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
       </div>
     </>
   );
