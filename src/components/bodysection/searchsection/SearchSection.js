@@ -210,7 +210,7 @@ function SearchSection() {
         <input
                 type="submit"
                 className="btn submit "
-                style={{ width: "100%", borderRadius: 0,backgroundColor:'#ff7b00de' }}
+                style={{ width: "100%", borderRadius: 0,backgroundColor:'#ff7b00de',color:'white' }}
                 id="exampleFormControlInput1"
               />
         </div>
