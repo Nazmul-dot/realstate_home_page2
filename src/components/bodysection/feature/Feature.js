@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 function Feature() {
   const settings = {
-    dots: true, // Enable dots for better navigation
+    // dots: true, // Enable dots for better navigation
     infinite: true,
     speed: 1000,
     slidesToShow: 4,
@@ -61,7 +61,7 @@ function Feature() {
       description:
         "Lorem ipsum dolor sit  elit. Cum maiores cupiditate nihil? Ducimus aliquam, minus eum consectetur totam cum id? ",
       price: 3850,
-      title: "this is feature title1",
+      title: "15421 Southwest 39th Terrac",
     },
     {
       id: 2,
@@ -70,7 +70,7 @@ function Feature() {
       description:
         "Lorem ipsum dolor sit amet consicing elit. Cum maiores cupiditate nihil? Ducimus aliquam, minus eum consectetur totam cum id? ",
       price: 185000,
-      title: "this is feature title2",
+      title: "700 Front Street,Key West,FL",
     },
     {
       id: 3,
@@ -79,7 +79,7 @@ function Feature() {
       description:
         "Lorem ipsum et consectetur adipisicing elit. Cum maiores cupiditate nihil? Ducimus aliquam, minus eum consectetur totam cum id? ",
       price: 3245,
-      title: "this is feature title3",
+      title: "701 Biscayne Boulevebed Miami",
     },
     {
       id: 4,
@@ -88,7 +88,7 @@ function Feature() {
       description:
         "Lorem ipsum dolor sectetur adipisicing elit. Cum maiores cupiditate nihil? Ducimus aliquam, minus eum consectetur totam cum id? ",
       price: 6544,
-      title: "this is feature title4",
+      title: "1531 Grand Avenue, CocoWalk",
     },
     {
       id: 5,
@@ -97,7 +97,7 @@ function Feature() {
       description:
         "Lorem ipsum dolor sit amet consectetur additate nihil? Ducimus aliquam, minus eum consectetur totam cum id? ",
       price: 1243,
-      title: "this is feature title5",
+      title: "700 Front Street,Key West,FL",
     },
     {
       id: 6,
@@ -106,7 +106,7 @@ function Feature() {
       description:
         "Lorem ipsum dolor sit amet consecteing elit. Cum maiores cupiditate nihil? Ducimus aliquam, minus eum consectetur totam cum id? ",
       price: 2342,
-      title: "this is feature title6",
+      title: "1531 Grand Avenue, CocoWalk",
     },
   ];
   return (
@@ -126,9 +126,9 @@ function Feature() {
           className=" col-10 col-md-12 mx-auto my-2 pt-5"
           style={{ paddingLeft: "30px" }}
         >
-          <h5>Features Properties</h5>
-          <p class="fw-lighter p-0">
-            Lighter weight text (relative to the parent element).
+          <h5 className="fw-bold">Features Properties</h5>
+          <p class="fw-lighter p-0 card-subtitle text-muted">
+            View A list Of Feature Properties
           </p>
         </div>
       </div>
