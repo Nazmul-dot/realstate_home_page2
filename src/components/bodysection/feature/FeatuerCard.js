@@ -45,7 +45,7 @@ function FeatuerCard({ image, title, price, description }) {
                 fontWeight: 700,
               }}
             >
-              ${price} Per month
+              ${price} Per Month
             </button>
           </div>
         </div>
