@@ -10,8 +10,8 @@ function Partner() {
     dots: false,
     infinite: true,
     speed: 1000,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 6,
+    slidesToScroll: 6,
 
     responsive: [
       {
